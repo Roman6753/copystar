@@ -18,7 +18,7 @@ class ListUsers extends Component
 
     public function render()
     {
-        $users = User::all();
+        $users = User::query()->orderBy('id','desc')->get();
 
         return view('livewire.admin.list-users', compact('users'));
     }
