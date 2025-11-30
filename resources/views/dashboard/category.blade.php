@@ -1,7 +1,7 @@
 <x-layouts.dashboard>
     <div class="p-6">
         <div class="flex justify-between items-center mb-6">
-            <h1 class="text-2xl font-bold text-gray-800">Category Management</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Category</h1>
             <div class="flex space-x-2">
                 <a href="{{ route('categories.export') }}" 
                    class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded flex items-center space-x-2 transition-colors duration-200">
